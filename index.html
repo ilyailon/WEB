@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The WandaVision</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo"><a href="#"><img src="vanda1.webp" alt="logo" width="150px" height="110px"></a> </div>
+    <nav class="about">
+      <div class="nav-toggle"><span>
+      </span></div>
+      <ul id="menu" class="active">
+        <li><a href="#intro" >Начать просмотр</a></li>
+        <li><a href="#info" >Что такое WV?</a></li>
+        <li><a href="#container" >Плюсы</a></li>
+        <li><a href="#form-section" >Подать заявку</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="intro" class="intro">
+      <h1>Премьера сериала</h1>
+      <button href="#" class="btn">Начать просмотр</button>
+    </section>
+    <section id="info" class="info">
+      <h2>"Что за сериал ВандаВижн" ?</h2>
+      <span>«Фантастический сериал по комиксам Marvel расскажет о двух супергероях — Алой Ведьме и Вижне. Пол Беттани утверждает, что проект скорее будет похож на шестичасовой фильм, чем на сериал. Новинка будет снята в стилистике 50-х и выйдет весной 2021 года..</span>
+    </section>
+    <section id="container" class="container">
+  			<h3>Зачем смотреть этот сериал ?</h3>
+  			<ul class="list">
+  				<li class="item">
+  					<h4>Причина 1</h4>
+            <img class="img-item" src="reason1.png" alt="jedi">
+  				</li>
+  				<li class="item">
+  					<h4>Причина 2</h4>
+            <img class="img-item" src="reason2.jpg" alt="clones on war">
+  				</li>
+  				<li class="item">
+  					<h4>Причина 3</h4>
+            <img class="img-item" src="reason4.webp" alt="universe">
+  				</li>
+  			</ul>
+
+  	</section>
+
+    <section id="form-section" class="form-section">
+        <h2>Заполните заявку прямо сейчас</h2>
+  			  <form class="form-input" action="send.php" method="get">
+                <label>Имя<input type="text" placeholder="Имя" name="name"></label>
+                <label>e-mail<input type="text" placeholder="Е-mail" name="e-mail"></label>
+                <label>Выберите кинотеатр<select placeholder="Кинотеатр" name="city"></label>
+                  <option>Выберите кинотеатр</option>
+                  <option>Победа</option>
+                  <option>Кубус</option>
+                  <option>Моя хата</option>
+                </select>
+                <label>Комментарии и пожелания<textarea rows="10" cols="45" name="text" placeholder="Комментарии и пожелания"></textarea></label>
+                <input type="submit" value="Отправить">
+          </form>
+    </section>
+  </main>
+  <footer>
+    <section class="icons">
+      <ul class="social-network">
+          <li><a href="#" class="fa fa-facebook"></a></li>
+          <li><a href="#" class="fa fa-instagram"></a></li>
+          <li><a href="#" class="fa fa-vk"></a></li>
+      </ul>
+    <section>
+  </footer>
+</body>
+</html>
